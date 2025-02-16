@@ -3,109 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="decription" content="中央大學土木系 考古題">
+    <meta name="keyword" content="中央大學 土木系 考古題 歷屆 獎學金 師資 ">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-
+    
     <title>意見回饋</title>
 
-<style>
+    <style>
 
+    .respond-box{
+        height: 50vh;
+        width: 100vw;
+        display: flex;
+    }
 
-.respond-box{
-    height: 50vh;
-    width: 100vw;
-    display: flex;
- 
-}
-
-
-table{
+    .respond-box table{
     margin: auto;
     width: 50%;
     border-collapse: collapse;
     border: solid 2px white;
     text-align: center;
-}
+    }
 
-td{
+    .respond-box td{
     padding: 10px;
     font-size: 20px;
     border-bottom: 2px solid white;
+    }
 
-}
-
-#col-1{
+    .col-1{
     background-color: white;
     width: 30%;
-}
+    }
 
-a:hover{
+    .respond-box a:hover{
     text-decoration:underline;
-}
+    }
 
-
-</style>
-
+    </style>
 
 </head>
+
 
 <body>
 
 <header>
 
-        <div class="title-box">
-            <a href="index.html">
-    
-                <span class="title">
-                    <img src="title.png" width="100px">
-                </span>
-    
-                <span class="title">
-                    <p>中大土木考古</p>
-                </span>
-    
-            </a>
-        </div>
-    
-        <div class="title-index">
-    
-        </div>
-    
+    <div class="title-box">
+        <a href="index.html">
+
+            <span class="title">
+                <img src="title.png" width="100px">
+            </span>
+
+            <span class="title">
+                <p>中大土木考古</p>
+            </span>
+
+        </a>
+    </div>
+
+    <div class="title-index">
+
+    </div>
+
 </header>
 
 <main>
-
     <div class="respond-box">
 
         <table>
 
-            <colgroup>
-                <col id="col-1">
-                <col id="col-2">
-            </colgroup>
-
             <tr>
-                <td>e-mail</td>
+                <td class="col-1">e-mail</td>
                 <td>
                     <a href="mailto:ch1ng0504412@gmail.com">ch1ng0504412@gmail.com</a>
                 </td>
             </tr>
 
             <tr>
-                <td>作者</td>
+                <td class="col-1">作者</td>
                 <td>你爹</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: left;">重要聲明：<br>
+                    
+                </td>
             </tr>
 
 
         </table>
 
     </div>
-
 </main>
 
-    
 </body>
 </html>
