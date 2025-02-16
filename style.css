@@ -1,6 +1,14 @@
+body{
+    background-color: #cccecf;
+}
+
 /* header */
+
 header{
-    position: sticky;
+    background-color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
 }
 
 .title-box{
@@ -29,7 +37,7 @@ header{
 .title-index {
     background-color: #1b3c85;
     height: 40px;
-    width: 100vw;
+    width: 100%;
 }
 
 /* header */
@@ -37,6 +45,9 @@ header{
 
 
 /* main */
+
+
+
 .table-box{
     width: 100vw;
     margin-top: 20px;
@@ -53,14 +64,14 @@ table{
 
 th{
     text-align: center;
-    border-bottom: 1px solid #cccecf;
+    border-bottom: 1px solid white;
     font-size: 20px;
     padding: 10px 10px;
-    background-color: #cccecf;
+    background-color: white;
 }
 
 td{
-    border-bottom: 1px solid #cccecf;
+    border-bottom: 1px solid white;
     font-size: 20px;
 
 }
