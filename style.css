@@ -36,9 +36,35 @@ header{
 
 .title-index {
     background-color: #1b3c85;
-    height: 40px;
+    height: 50px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
+
+.title-index  a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.title-index a:visited{
+    color: white;
+}
+
+.title-index a:hover{
+    color: #d9c743;
+}
+
+.title-index p{
+    font-size: 20px;
+    color: white;
+}
+
+    
+
 
 /* header */
 
