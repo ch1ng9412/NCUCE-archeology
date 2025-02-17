@@ -1,14 +1,17 @@
 body{
     background-color: #cccecf;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
 }
 
 /* header */
 
 header{
     background-color: white;
-    margin-left: -10px;
     margin-right: -10px;
-    margin-top: -10px;
+    width: 100%;
 }
 
 .title-box{
@@ -75,7 +78,7 @@ header{
 
 
 .table-box{
-    width: 100vw;
+    width: 100%;
     margin-top: 20px;
  
 }
