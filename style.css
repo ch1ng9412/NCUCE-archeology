@@ -104,6 +104,14 @@ header{
 
 }
 
+.chapter-title td{
+    border-bottom: 2px solid #1b3c85;
+}
+
+.chapter-title p{
+    color:  #1b3c85;
+}
+
     /* hover */
 
 .hover-element ul{
