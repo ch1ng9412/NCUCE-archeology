@@ -125,7 +125,6 @@ header{
 
 .hover-element ul li a{
     text-decoration: none;
-    text-transform: uppercase;
     position: relative;
     color: black;
 }
